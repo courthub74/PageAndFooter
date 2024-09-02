@@ -1,3 +1,53 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@400&display=swap');
+
+// Dark Blue
+$darkblue: #080E2F;
+// Dark Blue Filtered opaque
+$filteredNav: #080e2fd7;
+// Footer Blue
+$footerblue: #060927;
+// Next Green
+$nextgreen: #00313E;
+// Portfolio backgrounds
+$portfolios: #36395D;
+$squaresback: #33365B;
+$newsquarescolor: #1c1d46;
+// Technology Circle Colors
+$lightertechcircles: #0d1270;
+$bluertechcircles: #110F82;
+$darkertechcircles: #00313E;
+// Resume Button Green
+$resumebutton: #507E81;
+// Green Button Top
+$greentop: rgba(255, 255, 255, 0.664);
+// Skills Teal
+$skillsteal: #146166;
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+// Job Descriptions
+$jobdescription: #00C6C3;
+$jobdescripgrey: #8081AA;
+$descriptiongrey2: #7a7bd3;
+$descriptionblue: #8091ED;
+// First Blue
+$firstblue: #58a6ff;
+$savethis: #7273ad;
+// Next Section Down
+$nextsection: rgba(255, 255, 255, 0.509);
+
+// Grey Button line
+// $buttongrey: rgba(255, 255, 255, 0.664);
+$buttongrey: #61677A;
+
+// Linear Gradient
+$projectboxes: linear-gradient(10deg, #5a5b76, $darkblue);
+$projectboxes2: linear-gradient(45deg, #3b3e93, #060927);
+$projectboxes4: linear-gradient(45deg, rgb(39, 39, 92), $footerblue);
+$projectboxes3: linear-gradient(45deg, rgb(21, 21, 68), $footerblue);
+$projectboxes5: linear-gradient(20deg, #3b3e93, $darkblue);
+
+
 * {
     margin: 0;
 }
@@ -9,6 +59,7 @@ html {
 body {
     main {
         background-color: rgb(4, 4, 104);
+        background-color: $darkblue;
         display: flex;
         flex-direction: column;
         // justify-content: center;
@@ -18,13 +69,41 @@ body {
         gap: 5em;
         nav {
             width: 100%;
-            padding: 20px;
+            padding: 40px;
             background-color: darkcyan;
+            background-color: $footerblue;
+            border-bottom: 1px solid $nextgreen;
+            // Nav Words
+            .nav_list {
+                display: flex;
+                justify-content: right;
+                font-family: 'Inter', sans-serif;
+                margin: 0 4em 0 0;
+                ul {
+                    display: flex;
+                    gap: 1em;
+                    li {
+                        list-style: none;
+                        a {
+                            text-decoration: none;
+                            font-weight: bold;
+                            color: white;
+                        }
+                    }
+                }
+            }
         }
         header {
             color: white;
-            font-size: 2rem;
+            font-weight: bold;
+            font-size: 3rem;
             min-height: 50px;
+            font-family: 'Inter', sans-serif;
+        
+            #courdevelops {
+                width: 7em;
+                height: 7em;
+            }
         }
         article {
             color: white;
@@ -32,9 +111,121 @@ body {
             text-align: center;
             font-size: 1.3rem;
         }
+        // ABOUT SECTION
+        .about_ {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            background-color: $nextgreen;
+            color: white;
+            width: 100%;
+            padding: 4em;
+            .about_text {
+                width: 50%;
+                font-family: 'Inter', sans-serif;
+            }
+        }
+        // PORTFOLIO SECTION
+        .portfolio_ {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            background-color: $darkblue;
+            color: white;
+            width: 100%;
+            padding-bottom: 4em;
+            .portfolio_squares {
+                display: flex;
+                gap: 1em;
+                .port_square {
+                    background-color: #1c1d46;
+                    background: $projectboxes5;
+                    border-top: 1px solid $buttongrey;
+                    border-top: 2px solid $nextgreen;
+                    padding: 5em 5em 10em 5em;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
+        // SKILLS SECTION
+        .skills_ {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            background-color: $nextgreen;
+            // background-color: $darkblue;
+            color: white;
+            width: 100%;
+            padding: 6em;
+            .skills_circles {
+                display: flex;
+                gap: 1em;
+            
+                .skills_circle {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border-radius: 50%;
+                    background-color: $nextgreen;
+                    background-color: $resumebutton;
+                    border: 2px solid $darkblue;
+                    height: 7em;
+                    width: 7em;
+                    // height: 6em;
+                    // width: 6em;
+                    cursor: pointer;
+                    .inner_circle {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        border-radius: 50%;
+                        background-color: $darkblue;
+                        // background-color: $nextgreen;
+                        height: 90%;
+                        width: 90%;
+                        font-family: 'Inter', sans-serif;
+                    }
+                }
+            }
+        }
+        // EXPERIENCE SECTION
+        .experience_ {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            background-color: $darkblue;
+            color: white;
+            width: 100%;
+            padding-bottom: 4em;
+            .experience_squares {
+                display: flex;
+                gap: 1em;
+                .exp_square {
+                    background:$projectboxes5;
+                    // background-color: $darkblue;
+                    border-top: 1px solid $buttongrey;
+                    border-top: 2px solid $nextgreen;
+                    padding: 5em 5em 5em 5em;
+                    font-family: 'Inter', sans-serif;
+                    font-weight: bold;
+                    cursor: pointer;
+                }
+            }
+        }
         footer{
             background-color: rgb(2, 2, 58);
-            border-top: 2px solid darkgreen;
+            background-color: $footerblue;
+            border-top: 2px solid $nextgreen;
             color: white;
             padding: 60px;
             width: 100%;
