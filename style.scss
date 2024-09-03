@@ -192,7 +192,6 @@ body {
             .skills_circles {
                 display: flex;
                 gap: 1em;
-            
                 .skills_circle {
                     display: flex;
                     justify-content: center;
@@ -233,16 +232,32 @@ body {
             padding-bottom: 4em;
             .experience_squares {
                 display: flex;
+                align-items: center;
                 gap: 1em;
                 .exp_square {
-                    background:$projectboxes5;
+                    // background:$projectboxes5;
                     // background-color: $darkblue;
-                    border-top: 1px solid $buttongrey;
-                    border-top: 2px solid $nextgreen;
-                    padding: 5em 5em 5em 5em;
+                    background: none;
+                    // border-top: 1px solid $buttongrey;
+                    // border-top: 2px solid $nextgreen;
+                    border-right: 1px solid $nextgreen;
+                    // padding: 5em 5em 5em 5em;
+                    padding: 1em 1em 1em 1em;
                     font-family: 'Inter', sans-serif;
                     font-weight: bold;
                     cursor: pointer;
+                    img {
+                        width: 4em;
+                        height: 4em;
+                    }
+                    #courdevelops {
+                        width: 5em;
+                        height: 5em;
+                    }
+                    #r1 {
+                        width: 4em;
+                        height: 3em;
+                    }
                 }
             }
         }

@@ -168,16 +168,28 @@ body main .experience_ {
 }
 body main .experience_ .experience_squares {
   display: flex;
+  align-items: center;
   gap: 1em;
 }
 body main .experience_ .experience_squares .exp_square {
-  background: linear-gradient(20deg, #3b3e93, #080E2F);
-  border-top: 1px solid #61677A;
-  border-top: 2px solid #00313E;
-  padding: 5em 5em 5em 5em;
+  background: none;
+  border-right: 1px solid #00313E;
+  padding: 1em 1em 1em 1em;
   font-family: "Inter", sans-serif;
   font-weight: bold;
   cursor: pointer;
+}
+body main .experience_ .experience_squares .exp_square img {
+  width: 4em;
+  height: 4em;
+}
+body main .experience_ .experience_squares .exp_square #courdevelops {
+  width: 5em;
+  height: 5em;
+}
+body main .experience_ .experience_squares .exp_square #r1 {
+  width: 4em;
+  height: 3em;
 }
 body main footer {
   background-color: rgb(2, 2, 58);
