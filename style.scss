@@ -262,6 +262,10 @@ body {
             }
         }
         footer{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
             background-color: rgb(2, 2, 58);
             background-color: $footerblue;
             border-top: 2px solid $nextgreen;
@@ -269,7 +273,12 @@ body {
             padding: 60px;
             width: 100%;
             margin-top: auto;
-            
+            .soc_footer {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
             // FIXED METHOD
             // position: fixed;
             // bottom: 0;

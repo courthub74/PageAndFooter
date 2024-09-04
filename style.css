@@ -192,6 +192,10 @@ body main .experience_ .experience_squares .exp_square #r1 {
   height: 3em;
 }
 body main footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-color: rgb(2, 2, 58);
   background-color: #060927;
   border-top: 2px solid #00313E;
@@ -199,4 +203,10 @@ body main footer {
   padding: 60px;
   width: 100%;
   margin-top: auto;
+}
+body main footer .soc_footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */
