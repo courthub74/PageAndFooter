@@ -193,8 +193,7 @@ body main .experience_ .experience_squares .exp_square #r1 {
 }
 body main footer {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: rgb(2, 2, 58);
   background-color: #060927;
@@ -209,4 +208,17 @@ body main footer .soc_footer {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+body main footer .soc_footer .socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+body main footer .soc_footer .socials img {
+  width: 1.5em;
+  height: 1.5em;
+}
+body main footer .email_sec {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
