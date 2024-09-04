@@ -19,10 +19,9 @@ body main {
 }
 body main nav {
   width: 100%;
-  padding: 40px;
+  padding-top: 50px;
   background-color: darkcyan;
-  background-color: #060927;
-  border-bottom: 1px solid #00313E;
+  background-color: #080E2F;
 }
 body main nav .nav_list {
   display: flex;
@@ -32,7 +31,7 @@ body main nav .nav_list {
 }
 body main nav .nav_list ul {
   display: flex;
-  gap: 1em;
+  gap: 1.5em;
 }
 body main nav .nav_list ul li {
   list-style: none;
@@ -41,17 +40,35 @@ body main nav .nav_list ul li a {
   text-decoration: none;
   font-weight: bold;
   color: white;
+  font-size: 1.2rem;
 }
 body main header {
   color: white;
   font-weight: bold;
   font-size: 3rem;
-  min-height: 50px;
+  min-height: 30px;
   font-family: "Inter", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
 }
-body main header #courdevelops {
-  width: 7em;
-  height: 7em;
+body main header .header_logo #courdevelops {
+  width: 6em;
+  height: 6em;
+}
+body main header .header_description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body main header .header_description .header_name {
+  font-weight: bold;
+}
+body main header .header_description .header_slogan {
+  font-size: 1.3rem;
+  font-weight: normal;
 }
 body main article {
   color: white;
