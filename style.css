@@ -45,7 +45,7 @@ body main nav .nav_list ul li a {
 body main header {
   color: white;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.8rem;
   min-height: 30px;
   font-family: "Inter", sans-serif;
   display: flex;
@@ -56,6 +56,8 @@ body main header {
 body main header .header_logo #courdevelops {
   width: 6em;
   height: 6em;
+  box-shadow: 2px 2px 2px black;
+  border-radius: 50%;
 }
 body main header .header_description {
   display: flex;
@@ -65,10 +67,38 @@ body main header .header_description {
 }
 body main header .header_description .header_name {
   font-weight: bold;
+  font-size: 2.8rem;
 }
 body main header .header_description .header_slogan {
   font-size: 1.3rem;
   font-weight: normal;
+}
+body main header .header_description .header_socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+  margin-top: 0.5em;
+  background-color: #060927;
+  border: 1.8px solid #00313E;
+  box-shadow: 1px 1px 1px black;
+  padding: 0.3em;
+}
+body main header .header_description .header_socials #github_head {
+  width: 0.5em;
+  height: 0.5em;
+}
+body main header .header_description .header_socials #twitter_head {
+  width: 0.5em;
+  height: 0.5em;
+}
+body main header .header_description .header_socials #linkedin_head {
+  width: 0.6em;
+  height: 0.6em;
+}
+body main header .header_description .header_socials #instagram_head {
+  width: 0.5em;
+  height: 0.5em;
 }
 body main article {
   color: white;
@@ -90,6 +120,7 @@ body main .about_ {
 body main .about_ .about_text {
   width: 50%;
   font-family: "Inter", sans-serif;
+  line-height: 30px;
 }
 body main .portfolio_ {
   display: flex;
