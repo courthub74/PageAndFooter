@@ -196,6 +196,8 @@ body {
             .portfolio_squares {
                 display: flex;
                 align-items: center;
+                justify-content: center;
+                // background-color: #00313E;
                 gap: 1em;
                 .port_square {
                     // background-color: #1c1d46;
@@ -203,7 +205,7 @@ body {
                     background: none;
                     // border-top: 1px solid $buttongrey;
                     // border-top: 2px solid $nextgreen;
-                    border-right: 1px solid $nextgreen;
+                    // border-right: 1px solid $nextgreen;
                     // padding: 5em 5em 10em 5em;
                     padding: 1em 1em 1em 1em;
                     font-family: 'Inter', sans-serif;
@@ -213,13 +215,13 @@ body {
                         width: 10em;
                         height: 3em;
                     }
-                    #skill_project {
-                        width: 17em;
-                        height: 1.3em;
+                    #workflow_app {
+                        width: 10em;
+                        height: 2em;
                     }
-                    #rec_help {
-                        width: 8em;
-                        height: 3em;
+                    #luminex_solutions {
+                        width: 8.5em;
+                        height: 1.2em;
                     }
                     #create_collab {
                         width: 9em;
@@ -227,7 +229,7 @@ body {
                     }
                     #time_card {
                         width: 8em;
-                        height: 1.2em;
+                        height: 1.7em;
                     }
                 }
             }

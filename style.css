@@ -136,11 +136,11 @@ body main .portfolio_ {
 body main .portfolio_ .portfolio_squares {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 1em;
 }
 body main .portfolio_ .portfolio_squares .port_square {
   background: none;
-  border-right: 1px solid #00313E;
   padding: 1em 1em 1em 1em;
   font-family: "Inter", sans-serif;
   font-weight: bold;
@@ -150,13 +150,13 @@ body main .portfolio_ .portfolio_squares .port_square img {
   width: 10em;
   height: 3em;
 }
-body main .portfolio_ .portfolio_squares .port_square #skill_project {
-  width: 17em;
-  height: 1.3em;
+body main .portfolio_ .portfolio_squares .port_square #workflow_app {
+  width: 10em;
+  height: 2em;
 }
-body main .portfolio_ .portfolio_squares .port_square #rec_help {
-  width: 8em;
-  height: 3em;
+body main .portfolio_ .portfolio_squares .port_square #luminex_solutions {
+  width: 8.5em;
+  height: 1.2em;
 }
 body main .portfolio_ .portfolio_squares .port_square #create_collab {
   width: 9em;
@@ -164,7 +164,7 @@ body main .portfolio_ .portfolio_squares .port_square #create_collab {
 }
 body main .portfolio_ .portfolio_squares .port_square #time_card {
   width: 8em;
-  height: 1.2em;
+  height: 1.7em;
 }
 body main .skills_ {
   display: flex;
