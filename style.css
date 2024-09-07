@@ -109,7 +109,7 @@ body main article {
 body main .about_ {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   gap: 1em;
   background-color: #00313E;
@@ -127,7 +127,7 @@ body main .portfolio_ {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 2em;
   background-color: #080E2F;
   color: white;
   width: 100%;
@@ -151,20 +151,20 @@ body main .portfolio_ .portfolio_squares .port_square img {
   height: 3em;
 }
 body main .portfolio_ .portfolio_squares .port_square #skill_project {
-  width: 15em;
-  height: 2em;
+  width: 17em;
+  height: 1.3em;
 }
 body main .portfolio_ .portfolio_squares .port_square #rec_help {
-  width: 10em;
-  height: 4em;
+  width: 8em;
+  height: 3em;
 }
 body main .portfolio_ .portfolio_squares .port_square #create_collab {
-  width: 11em;
-  height: 2em;
+  width: 9em;
+  height: 1.2em;
 }
 body main .portfolio_ .portfolio_squares .port_square #time_card {
-  width: 10em;
-  height: 2em;
+  width: 8em;
+  height: 1.2em;
 }
 body main .skills_ {
   display: flex;
@@ -217,7 +217,7 @@ body main .experience_ {
 body main .experience_ .experience_squares {
   display: flex;
   align-items: center;
-  gap: 1em;
+  gap: 4em;
 }
 body main .experience_ .experience_squares .exp_square {
   background: none;
@@ -228,8 +228,8 @@ body main .experience_ .experience_squares .exp_square {
   cursor: pointer;
 }
 body main .experience_ .experience_squares .exp_square img {
-  width: 4em;
-  height: 4em;
+  width: 3em;
+  height: 3em;
 }
 body main .experience_ .experience_squares .exp_square #courdevelops {
   width: 5em;
@@ -238,6 +238,10 @@ body main .experience_ .experience_squares .exp_square #courdevelops {
 body main .experience_ .experience_squares .exp_square #r1 {
   width: 4em;
   height: 3em;
+}
+body main .experience_ .experience_squares .exp_square #slea {
+  width: 4em;
+  height: 4em;
 }
 body main footer {
   display: flex;
@@ -250,23 +254,64 @@ body main footer {
   padding: 60px;
   width: 100%;
   margin-top: auto;
+  font-family: "Inter", sans-serif;
 }
 body main footer .soc_footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0 0 0 4em;
+  gap: 1.5em;
+  font-size: 1rem;
 }
 body main footer .soc_footer .socials {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1em;
+  gap: 2.5em;
 }
-body main footer .soc_footer .socials img {
-  width: 1.5em;
-  height: 1.5em;
+body main footer .soc_footer .socials #github {
+  width: 1.8em;
+  height: 1.8em;
+}
+body main footer .soc_footer .socials #twitter {
+  width: 1.6em;
+  height: 1.6em;
+}
+body main footer .soc_footer .socials #linkedin {
+  width: 2em;
+  height: 2em;
+}
+body main footer .soc_footer .socials #instagram {
+  width: 2em;
+  height: 2em;
 }
 body main footer .email_sec {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 4em 0 0;
+  padding: 10px;
+}
+body main footer .email_sec #contact_title {
+  font-size: 1.8rem;
+}
+body main footer .email_sec .email_copy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  font-size: 1.2rem;
+  padding: 0.5em;
+}
+body main footer .email_sec .email_copy #copy_button {
+  background-color: #060927;
+  border: none;
+  cursor: pointer;
+}
+body main footer .email_sec .email_copy #copy_button #copy {
+  width: 1.7em;
+  height: 2.5em;
 }/*# sourceMappingURL=style.css.map */

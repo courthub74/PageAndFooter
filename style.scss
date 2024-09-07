@@ -169,7 +169,7 @@ body {
         .about_ {
             display: flex;
             flex-direction: column;
-            justify-content: center;
+            justify-content: left;
             align-items: center;
             gap: 1em;
             background-color: $nextgreen;
@@ -188,7 +188,7 @@ body {
             flex-direction: column;
             justify-content: center;
             align-items: center;
-            gap: 1em;
+            gap: 2em;
             background-color: $darkblue;
             color: white;
             width: 100%;
@@ -214,20 +214,20 @@ body {
                         height: 3em;
                     }
                     #skill_project {
-                        width: 15em;
-                        height: 2em;
+                        width: 17em;
+                        height: 1.3em;
                     }
                     #rec_help {
-                        width: 10em;
-                        height: 4em;
+                        width: 8em;
+                        height: 3em;
                     }
                     #create_collab {
-                        width: 11em;
-                        height: 2em;
+                        width: 9em;
+                        height: 1.2em;
                     }
                     #time_card {
-                        width: 10em;
-                        height: 2em;
+                        width: 8em;
+                        height: 1.2em;
                     }
                 }
             }
@@ -288,7 +288,7 @@ body {
             .experience_squares {
                 display: flex;
                 align-items: center;
-                gap: 1em;
+                gap: 4em;
                 .exp_square {
                     // background:$projectboxes5;
                     // background-color: $darkblue;
@@ -302,8 +302,8 @@ body {
                     font-weight: bold;
                     cursor: pointer;
                     img {
-                        width: 4em;
-                        height: 4em;
+                        width: 3em;
+                        height: 3em;
                     }
                     #courdevelops {
                         width: 5em;
@@ -312,6 +312,10 @@ body {
                     #r1 {
                         width: 4em;
                         height: 3em;
+                    }
+                    #slea {
+                        width: 4em;
+                        height: 4em;
                     }
                 }
             }
@@ -328,24 +332,70 @@ body {
             padding: 60px;
             width: 100%;
             margin-top: auto;
+            font-family: 'Inter', sans-serif;
             .soc_footer {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
                 align-items: center;
+                margin: 0 0 0 4em;
+                gap: 1.5em;
+                font-size: 1rem;
                 .socials {
                     display: flex;
                     justify-content: center;
                     align-items: center;
-                    gap: 1em;
-                    img {
-                        width: 1.5em;
-                        height: 1.5em;
+                    gap: 2.5em;
+                    // img {
+                    //     width: 2.1em;
+                    //     height: 2.1em;
+                    // }
+                    #github {
+                        width: 1.8em;
+                        height: 1.8em;
+                    }
+                    #twitter {
+                        width: 1.6em;
+                        height: 1.6em;
+                    }
+                    #linkedin {
+                        width: 2em;
+                        height: 2em;
+                    }
+                    #instagram {
+                        width: 2em;
+                        height: 2em;
                     }
                 }
             }
             .email_sec {
                 display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 0 4em 0 0;
+                padding: 10px;
+                #contact_title {
+                    font-size: 1.8rem;
+                }
+                .email_copy {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 1em;
+                    // border-top: $nextgreen solid 1px;
+                    font-size: 1.2rem;
+                    padding: .5em;
+                    #copy_button {
+                        background-color: $footerblue;
+                        border: none;
+                        cursor: pointer;
+                        #copy {
+                            width: 1.7em;
+                            height: 2.5em;
+                        }
+                    }
+                }
             }
             // FIXED METHOD
             // position: fixed;
