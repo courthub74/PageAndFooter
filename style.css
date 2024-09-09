@@ -114,7 +114,6 @@ body main .about_ {
   gap: 1em;
   background-color: #00313E;
   color: white;
-  width: 100%;
   padding: 4em;
 }
 body main .about_ .about_text {
@@ -174,7 +173,6 @@ body main .skills_ {
   gap: 1em;
   background-color: #00313E;
   color: white;
-  width: 100%;
   padding: 6em;
 }
 body main .skills_ .skills_circles {
@@ -303,7 +301,7 @@ body main footer .email_sec .email_copy {
   align-items: center;
   justify-content: center;
   gap: 1em;
-  font-size: 1.2rem;
+  font-size: 1rem;
   padding: 0.5em;
 }
 body main footer .email_sec .email_copy #copy_button {

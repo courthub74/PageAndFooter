@@ -174,7 +174,7 @@ body {
             gap: 1em;
             background-color: $nextgreen;
             color: white;
-            width: 100%;
+            // width: 100%;
             padding: 4em;
             .about_text {
                 width: 50%;
@@ -244,7 +244,7 @@ body {
             background-color: $nextgreen;
             // background-color: $darkblue;
             color: white;
-            width: 100%;
+            // width: 100%;
             padding: 6em;
             .skills_circles {
                 display: flex;
@@ -377,6 +377,7 @@ body {
                 align-items: center;
                 margin: 0 4em 0 0;
                 padding: 10px;
+                // background-color: green;
                 #contact_title {
                     font-size: 1.8rem;
                 }
@@ -386,7 +387,7 @@ body {
                     justify-content: center;
                     gap: 1em;
                     // border-top: $nextgreen solid 1px;
-                    font-size: 1.2rem;
+                    font-size: 1rem;
                     padding: .5em;
                     #copy_button {
                         background-color: $footerblue;
